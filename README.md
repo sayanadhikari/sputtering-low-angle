@@ -1,4 +1,8 @@
-# sputtering-low-angle
-A Matlab code to solve 1-D bounded plasma system with PSI module.
+EPSLA - (Estimation of Physical Sputtering at Low Angles)
+===============================================
+A Matlab code to solve 1-D bounded plasma system with Plasma Surface Interaction (PSI) module.
 
-Developer: Dr. Sayan Adhikari, Centre of Plasma Physics, Institute for Plasma Research, Assam, India.
+Contributors
+------------
+
+- [Sayan Adhikari](mailto:sayan.adhikari@fys.uio.no): architecture and data structures, overall maintainance
