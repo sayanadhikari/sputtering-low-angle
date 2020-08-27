@@ -26,7 +26,7 @@
 % c  Output from the subroutine
 % c  yldphy -> The physical sputtering yield.
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-function [yldphy,Ye_E0] = sayandriver(theta,eo,lambda,qtotal,mu,Eth,stoppwr,eobyetf,nu,eps_L,n,fy,by,cy,theta0star,z1,z2,am1,am2,es)
+function [yldphy,Ye_E0] = sputt_yeilds(theta,eo,lambda,qtotal,mu,Eth,stoppwr,eobyetf,nu,eps_L,n,fy,by,cy,theta0star,z1,z2,am1,am2,es)
 % c  Inputs to the subroutine
 
 %   z1 =input('nuclear charge of incident atom = ');
