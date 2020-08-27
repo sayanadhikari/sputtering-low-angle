@@ -12,7 +12,7 @@
 % c  Output from the subroutine
 % c  yldphy -> The physical sputtering yield.
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-function [yldphy,Ye_E0] = sayaninput(theta,eo,tar_mat)
+function [yldphy,Ye_E0] = sputtInput(theta,eo,tar_mat)
         e0=1.6E-19; %electron charge
 %   theta =input('Input the incident angle = ');  %angle (in degrees) with normal to target of incident particle.
 %   eo =input(' energy of the incident particle = ');
