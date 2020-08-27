@@ -150,7 +150,7 @@ for mm = 1:length(ratio_range)
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%    SPUTTERING PART 1     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-        Phys(k) = sayaninput(theta(k),KE(k),'Be');
+        Phys(k) = sputtInput(theta(k),KE(k),'Be');
 
         Phys3d(mm,k) = Phys(k);
 
