@@ -160,7 +160,7 @@ for mm = 1:length(T_ee)
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%    SPUTTERING PART 1     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-        Phys(k) = sayaninput(theta(k),KE(k),material);
+        Phys(k) = sputtInput(theta(k),KE(k),material);
 
         Phys3d(mm,k) = Phys(k);
 
