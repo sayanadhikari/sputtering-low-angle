@@ -13,7 +13,7 @@ tar_mat = 'W';
       Ye_E0 = zeros(1,length(theta));
       for i=1:1:length(theta)
 %           yldphy(i) = sayandriver(theta(i),eo,z1,z2,am1,am2,es,tgdns);
-          yldphy(i)  = sayaninput(theta(i),eo,tar_mat);
+          yldphy(i)  = sputtInput(theta(i),eo,tar_mat);
       end
   
     %  Converting target density from gms/cm^3 to prt/m^3
