@@ -99,6 +99,6 @@ function [yldphy,Ye_E0] = sputtInput(theta,eo,tar_mat)
     
     
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-[yldphy,Ye_E0] = sayandriver(theta,eo,lambda,qtotal,mu,Eth,stoppwr,eobyetf,nu,eps_L,n,fy,by,cy,theta0star,z1,z2,am1,am2,es);
+[yldphy,Ye_E0] = sputtYeilds(theta,eo,lambda,qtotal,mu,Eth,stoppwr,eobyetf,nu,eps_L,n,fy,by,cy,theta0star,z1,z2,am1,am2,es);
 % disp(yldphy);
 end
